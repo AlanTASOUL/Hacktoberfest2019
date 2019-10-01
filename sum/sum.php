@@ -15,7 +15,7 @@ function sum($nums)
     foreach ($n as $key => $value) {
         $num = (int) $value;
         if (is_numeric($value)) {
-            $answer += $value;
+            $answer =$answer+$value;
         }
     }
 
